@@ -1,0 +1,17 @@
+[package]
+name = "unlynk/pdata"
+description = "An abstraction layer for Roblox's DataStores providing a simple retry mechanism"
+license = "MIT"
+version = "1.0.0"
+registry = "https://github.com/UpliftGames/wally-index"
+repository = "https://github.com/TheNoobPro44/pdata"
+realm = "server"
+exclude = ["README.md"]
+include = [
+    "default.project.json",
+    "lib/**",
+    "LICENSE",
+    "wally.toml",
+]
+
+[dependencies]
